@@ -13,7 +13,7 @@ public class TestInterfaceMethodDefault implements ITeste {
 	public static void main(String[] args) {
 		StaticAndDefaultMethodInterface s = new StaticAndDefaultMethodInterface();
 		s.log();
-		//s.log("aa"); Compila mas da excecao
+		s.log("aa"); 
 		ITeste.log(4);
 		
 		TestInterfaceMethodDefault t = new TestInterfaceMethodDefault();
