@@ -9,5 +9,15 @@ public interface ITeste {
 	static void log(int x){
 		System.out.println("Executa static");
 	}
+	//NAO COMPILA
+	/*default boolean equals(Object o){
+		
+	}*/
+	/*default int hashCode(){
+		
+	}*/
+	/*default String toString(){
+		
+	}*/
 	
 }
