@@ -13,4 +13,11 @@ public class FindMatchingAnimals {
 		print(new Animal("kangaroo", true, false), a -> a.canHop());
 		print(new Animal("kangaroo", false, false),a -> a.canSwim());
 	}
+	
+	public void find() {
+        find(c -> c.canHop());
+    }
+    private void find(CheckTrait s) {
+        // Here goes the implementation
+    }
 }
